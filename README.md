@@ -7,4 +7,4 @@ En este repositorio guardaré archivos de el ramo Estructura de datos y algoritm
 https://i.imgur.com/wry95GC.png
 
 hola mundo a a a
-[Github](https://i.imgur.com/wry95GC.png)
+![Github](https://i.imgur.com/wry95GC.png)
