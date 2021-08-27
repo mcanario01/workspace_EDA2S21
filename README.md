@@ -1,4 +1,4 @@
-Espacio de trabajo de Estructura de datos y algoritmos.
+## Espacio de trabajo de Estructura de datos y algoritmos.
 Segundo semestre del año 2021.
 
 En este repositorio guardaré archivos de el ramo Estructura de datos y algoritmos de la UFRO.
