@@ -1,0 +1,6 @@
+make --dry-run --keep-going --print-directory
+make: Entering directory '/mnt/d/Documents/Cpp/workspace_EDA2S21'
+make: Leaving directory '/mnt/d/Documents/Cpp/workspace_EDA2S21'
+ 
+make: *** No targets specified and no makefile found.  Stop.
+ 

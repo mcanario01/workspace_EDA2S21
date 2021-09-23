@@ -2,6 +2,9 @@
 	"folders": [
 		{
 			"path": "."
+		},
+		{
+			"path": "../Estructura-de-Notas"
 		}
 	],
 	"settings": {}
