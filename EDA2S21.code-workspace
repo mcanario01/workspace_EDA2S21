@@ -5,6 +5,12 @@
 		},
 		{
 			"path": "../Estructura-de-Notas"
+		},
+		{
+			"path": "../estructura-de-datos-y-algoritmos"
+		},
+		{
+			"path": "../ufrorol"
 		}
 	],
 	"settings": {}

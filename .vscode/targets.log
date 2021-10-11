@@ -6,7 +6,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Thu Sep 23 15:20:34 2021
+# Make data base, printed on Thu Sep 30 17:11:53 2021
 
 # Variables
 
@@ -15,7 +15,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # automatic
 ?F = $(notdir $?)
 # environment
-WSLENV = VSCODE_WSL_EXT_LOCATION/up
+WSLENV = VSCODE_WSL_EXT_LOCATION/up:VSCODE_SERVER_TAR/up
 # default
 .SHELLFLAGS := -c
 # environment
@@ -35,7 +35,7 @@ SHELL = /bin/sh
 # environment
 VSCODE_NLS_CONFIG = {"locale":"en","availableLanguages":{}}
 # environment
-_ = /home/madac/.vscode-server/bin/83bd43bc519d15e50c4272c6cf5c1479df196a4d/node
+_ = /home/madac/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/node
 # makefile
 MAKEFILE_LIST := 
 # 'override' directive
@@ -49,11 +49,13 @@ VSCODE_CWD = /mnt/c/Program Files/Microsoft VS Code
 # default
 MAKE_HOST := x86_64-pc-linux-gnu
 # environment
-PATH = /home/madac/.vscode-server/bin/83bd43bc519d15e50c4272c6cf5c1479df196a4d/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/Microsoft VS Code/bin:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/dotnet/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/marti/AppData/Local/Microsoft/WindowsApps
+PATH = /home/madac/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/Microsoft VS Code/bin:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/dotnet/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/marti/AppData/Local/Microsoft/WindowsApps
 # environment
 VSCODE_LOG_STACK = false
 # environment
-VSCODE_IPC_HOOK_CLI = /tmp/vscode-ipc-ba19e0a0-57c5-4d5e-9075-036b4c069967.sock
+VSCODE_IPC_HOOK_CLI = /tmp/vscode-ipc-58633d9a-3ae5-46f9-9513-4806a8d5381a.sock
+# environment
+VSCODE_SERVER_TAR = /mnt/c/Users/marti/AppData/Local/Temp/vscode-remote-wsl/7f6ab5485bbc008386c4386d08766667e155244e/vscode-server-stable-linux-x64.tar.gz
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
 # automatic
@@ -129,7 +131,7 @@ SUFFIXES :=
 # default
 .INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
 # environment
-VSCODE_INJECT_NODE_MODULE_LOOKUP_PATH = /home/madac/.vscode-server/bin/83bd43bc519d15e50c4272c6cf5c1479df196a4d/remote/node_modules
+VSCODE_INJECT_NODE_MODULE_LOOKUP_PATH = /home/madac/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/remote/node_modules
 # default
 .RECIPEPREFIX := 
 # environment
@@ -141,7 +143,7 @@ VSCODE_EXTHOST_WILL_SEND_SOCKET = true
 # environment
 WSL_DISTRO_NAME = Ubuntu
 # variable set hash-table stats:
-# Load=65/1024=6%, Rehash=0, Collisions=4/87=5%
+# Load=66/1024=6%, Rehash=0, Collisions=4/88=5%
 
 # Pattern-specific Variable Values
 
@@ -207,7 +209,7 @@ GNUmakefile:
 # strcache performance: lookups = 22 / hit rate = 13%
 # hash-table stats:
 # Load=19/8192=0%, Rehash=0, Collisions=1/22=5%
-# Finished Make data base on Thu Sep 23 15:20:34 2021
+# Finished Make data base on Thu Sep 30 17:11:53 2021
 
  
 make: *** No rule to make target 'all'.  Stop.
