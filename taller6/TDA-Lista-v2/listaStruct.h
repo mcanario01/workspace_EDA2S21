@@ -16,7 +16,6 @@ struct nodo{
 };
 
 struct Lista{
-	int largo;
 	struct nodo* primero;
 	Lista(){
 		primero=NULL;
