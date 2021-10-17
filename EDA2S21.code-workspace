@@ -1,17 +1,23 @@
 {
 	"folders": [
 		{
-			"path": "."
-		},
-		{
+			"name": "Estructura-de-Notas",
 			"path": "../Estructura-de-Notas"
 		},
 		{
+			"name": "workspace_EDA2S21",
+			"path": "."
+		},
+		{
+			"name": "estructura-de-datos-y-algoritmos",
 			"path": "../estructura-de-datos-y-algoritmos"
 		},
 		{
+			"name": "ufrorol",
 			"path": "../ufrorol"
 		}
 	],
-	"settings": {}
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "ufrorol"
+	}
 }
