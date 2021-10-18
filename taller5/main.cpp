@@ -2,8 +2,6 @@
 #include "./TDA-Lista-v2/lista.h"
 #include "taller5.h"
 
-tipoDato max(Lista lista);
-
 int main()
 {
     Lista lista;
@@ -17,16 +15,5 @@ int main()
     int maximo = max(lista);
     printf("%d", maximo);
     return 0;
-}
-
-tipoDato max(Lista lista){
-	tipoDato maximo = recupera(1, lista);
-	for(int i = primero(lista) ; i < fin(lista) ; i = siguiente(i, lista)){
-		tipoDato elemento = recupera(i, lista);
-		if(elemento > maximo){
-			maximo = elemento;
-		}
-	}
-	return maximo;
 }
 
