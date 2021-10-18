@@ -30,7 +30,7 @@ void anula(Cola &cola){
     }
 }
 
-void imprimeCola(Cola cola){
+void imprimeCola(Cola &cola){
     // Validación de cantidad de elementos
     if(vacia(cola)){
         printf("La cola se encuentra vacía.\n");

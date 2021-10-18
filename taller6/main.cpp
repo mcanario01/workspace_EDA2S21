@@ -1,9 +1,10 @@
 #include <stdio.h>
+#include "taller6.h"
 #include "./TDA-Pila/pila.h"
-
-int localizaPila(Pila& p, tipoDato x);
+#include "./TDA-Cola/cola.h"
 
 int main(){
+    /*
     Pila pila;
     push(10, pila);
     push(12, pila);
@@ -18,40 +19,18 @@ int main(){
     int dato;    scanf("%d", &dato);
     printf("\\nEl dato está ubicado en la posición: %d", localizaPila(pila, dato)); 
     return 0;
+    */
+   Cola cola;
+   ponerEnCola(4, cola);
+   ponerEnCola(3, cola);
+   ponerEnCola(16, cola);
+   ponerEnCola(14, cola);
+   ponerEnCola(35, cola);
+   ponerEnCola(67, cola);
+   ponerEnCola(2, cola);
+   imprimeCola(cola);
+   suprimeCola(3, cola);
+   imprimeCola(cola);
+
 }
 
-int localizaPila(Pila& p, tipoDato x){
-    if(vacia(p)){
-        printf("La pila está vacía.\n");
-    }
-    Pila aux;
-    int contador1 = 0;
-    int contador2 = 0;
-    int posicion_pila;
-    while(!vacia(p)){
-        tipoDato dato_recuperado = top(p);
-        contador2++;
-        if (x == dato_recuperado)
-        {
-            posicion_pila = contador2;
-        }
-        else
-        {
-            contador1++;
-        }
-        push(x, aux);
-        pop(p);
-    }
-    while(!vacia(aux)){
-        push(top(aux), p);
-        pop(aux);
-    }
-    if (contador1 == contador2)
-    {
-        printf("El dato no existe en la pila.");
-    }
-    else
-    {
-        return posicion_pila;
-    }  
-}
